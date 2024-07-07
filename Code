@@ -1,0 +1,197 @@
+Installation
+[ ]
+!pip install -q cassandra-driver
+!pip install -q cassio>=0.1.1
+!pip install -q gradientai --upgrade
+!pip install -q llama-index
+!pip install -q tiktoken==0.4.0
+!pip install -Uq openai-whisper
+!pip install -Uq yt-dlp
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 19.1/19.1 MB 76.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 166.3/166.3 kB 4.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 137.6/137.6 kB 8.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 801.3/801.3 kB 9.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 23.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 77.0/77.0 kB 10.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.0/2.0 MB 38.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 143.8/143.8 kB 19.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 49.4/49.4 kB 7.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 44.4/44.4 kB 5.8 MB/s eta 0:00:00
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+llmx 0.0.15a0 requires cohere, which is not installed.
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 13.8 MB/s eta 0:00:00
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+llmx 0.0.15a0 requires cohere, which is not installed.
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 794.3/794.3 kB 9.1 MB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Preparing metadata (pyproject.toml) ... done
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 63.3/63.3 MB 11.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 1.7/1.7 MB 51.9 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 153.1/153.1 kB 20.6 MB/s eta 0:00:00
+  Installing build dependencies ... done
+  Getting requirements to build wheel ... done
+  Installing backend dependencies ... done
+  Preparing metadata (pyproject.toml) ... done
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 670.2/670.2 MB 2.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 23.7/23.7 MB 49.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 823.6/823.6 kB 51.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 14.1/14.1 MB 75.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 731.7/731.7 MB 2.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 410.6/410.6 MB 3.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 121.6/121.6 MB 8.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 56.5/56.5 MB 10.7 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 124.2/124.2 MB 8.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 196.0/196.0 MB 6.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 209.8/209.8 MB 6.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 99.1/99.1 kB 13.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 619.9/619.9 MB 2.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 21.0/21.0 MB 80.6 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 849.3/849.3 kB 63.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 11.8/11.8 MB 120.2 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 557.1/557.1 MB 3.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 317.1/317.1 MB 4.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 168.4/168.4 MB 6.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 54.6/54.6 MB 12.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 102.6/102.6 MB 8.8 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 173.2/173.2 MB 6.0 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 177.1/177.1 MB 6.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 98.6/98.6 kB 14.2 MB/s eta 0:00:00
+  Building wheel for openai-whisper (pyproject.toml) ... done
+  Building wheel for lit (pyproject.toml) ... done
+ERROR: pip's dependency resolver does not currently take into account all the packages that are installed. This behaviour is the source of the following dependency conflicts.
+llmx 0.0.15a0 requires cohere, which is not installed.
+torchaudio 2.1.0+cu118 requires torch==2.1.0, but you have torch 2.0.1 which is incompatible.
+torchdata 0.7.0 requires torch==2.1.0, but you have torch 2.0.1 which is incompatible.
+torchtext 0.16.0 requires torch==2.1.0, but you have torch 2.0.1 which is incompatible.
+torchvision 0.16.0+cu118 requires torch==2.1.0, but you have torch 2.0.1 which is incompatible.
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.1/3.1 MB 18.1 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 194.4/194.4 kB 18.5 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 2.1/2.1 MB 42.4 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 130.2/130.2 kB 17.3 MB/s eta 0:00:00
+     ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 3.0/3.0 MB 61.8 MB/s eta 0:00:00
+Imports
+[ ]
+import json
+import os
+import re
+import time
+import whisper
+import yt_dlp
+from cassandra.auth import PlainTextAuthProvider
+from cassandra.cluster import Cluster
+from llama_index import ServiceContext
+from llama_index import set_global_service_context
+from llama_index import VectorStoreIndex, SimpleDirectoryReader, StorageContext
+from llama_index.embeddings import GradientEmbedding
+from llama_index.llms import GradientBaseModelLLM
+from llama_index.vector_stores import CassandraVectorStore
+Download Audio from YouTube video function
+[ ]
+def download_audio(link):
+    with yt_dlp.YoutubeDL({'extract_audio': True,
+                           'format': 'bestaudio',
+                           'outtmpl': '%(title)s.mp3'}) as video:
+        info_dict = video.extract_info(link, download = True)
+        video_title = info_dict['title']
+        video.download(link)
+    return video_title
+Example to extract audio -
+[ ]
+youtube_video_url = "https://www.youtube.com/watch?v=jBbLon5esbE"
+[ ]
+download_audio(youtube_video_url)
+
+Transcribe Audio from mp3 file
+[ ]
+os.makedirs("text_files")
+[ ]
+def transcribe(model, audio):
+    result = model.transcribe(audio)
+    with open("text_files/transcription.txt", 'w') as f:
+        f.write(result["text"])
+    return 1
+[ ]
+model = whisper.load_model("small")
+100%|███████████████████████████████████████| 461M/461M [00:07<00:00, 61.4MiB/s]
+[ ]
+transcribe(model, "Getting Started with Google Cloud Speech-To-Text API Using Python for Novices.mp3")
+1
+Setup the DataStax Vector DB Connection
+[ ]
+cloud_config= {
+  'secure_connect_bundle': 'secure-connect-bhavesh-astra-test.zip'
+}
+
+with open("bhavesh_astra_test-token.json") as f:
+    secrets = json.load(f)
+
+CLIENT_ID = secrets["clientId"]
+CLIENT_SECRET = secrets["secret"]
+
+auth_provider = PlainTextAuthProvider(CLIENT_ID, CLIENT_SECRET)
+cluster = Cluster(cloud=cloud_config, auth_provider=auth_provider)
+session = cluster.connect()
+
+row = session.execute("select release_version from system.local").one()
+if row:
+  print(row[0])
+else:
+  print("An error occurred.")
+WARNING:cassandra.cluster:Downgrading core protocol version from 66 to 65 for ddcc6460-d494-4a85-9fca-fa397e733c54-us-east1.db.astra.datastax.com:29042:31fcfb67-a0cc-46c1-9da4-d3dfe857e08c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+WARNING:cassandra.cluster:Downgrading core protocol version from 65 to 5 for ddcc6460-d494-4a85-9fca-fa397e733c54-us-east1.db.astra.datastax.com:29042:31fcfb67-a0cc-46c1-9da4-d3dfe857e08c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+ERROR:cassandra.connection:Closing connection <AsyncoreConnection(132512472427840) ddcc6460-d494-4a85-9fca-fa397e733c54-us-east1.db.astra.datastax.com:29042:31fcfb67-a0cc-46c1-9da4-d3dfe857e08c> due to protocol error: Error from server: code=000a [Protocol error] message="Beta version of the protocol used (5/v5-beta), but USE_BETA flag is unset"
+WARNING:cassandra.cluster:Downgrading core protocol version from 5 to 4 for ddcc6460-d494-4a85-9fca-fa397e733c54-us-east1.db.astra.datastax.com:29042:31fcfb67-a0cc-46c1-9da4-d3dfe857e08c. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+4.0.11-b86be92b8b5f
+Environment Variables
+[ ]
+os.environ['GRADIENT_ACCESS_TOKEN'] = 'Enter your Gradient Access Token'
+os.environ['GRADIENT_WORKSPACE_ID'] = 'Enter your Gradient Workspace ID'
+Define the Gradient's Model Adapter for LLAMA-2
+[ ]
+llm = GradientBaseModelLLM(
+    base_model_slug = "llama2-7b-chat",
+    max_tokens = 400,
+)
+Configure Gradient embeddings
+[ ]
+embed_model = GradientEmbedding(
+    gradient_access_token = os.environ["GRADIENT_ACCESS_TOKEN"],
+    gradient_workspace_id = os.environ["GRADIENT_WORKSPACE_ID"],
+    gradient_model_slug = "bge-large",
+)
+Setup LLAMA Index Service Context
+[ ]
+service_context = ServiceContext.from_defaults(
+    llm = llm,
+    embed_model = embed_model,
+    chunk_size = 256,
+)
+
+set_global_service_context(service_context)
+[nltk_data] Downloading package punkt to /tmp/llama_index...
+[nltk_data]   Unzipping tokenizers/punkt.zip.
+Load the Documents
+[ ]
+documents = SimpleDirectoryReader("/content/text_files").load_data()
+print(f"Loaded {len(documents)} document(s).")
+Loaded 1 document(s).
+Setup and Query Index
+[ ]
+index = VectorStoreIndex.from_documents(documents,
+                                        service_context = service_context)
+query_engine = index.as_query_engine()
+[ ]
+response_out = query_engine.query("What is used to convert speech to text in the text file?")
+print(response_out.response)
+The speech to text conversion in the text file is done using Google's speech to text API.
+[ ]
+response_out = query_engine.query("Does this require an API key?")
+print(response_out.response)
+Yes.
+
+Explanation: In the video, the speaker mentions that in order to use the Google Cloud Speech to Text API, you will require the credentials of the API. The speaker then goes on to explain how to create a JSON file containing the credentials and how to save it to an environment variable called "Google underscore application underscore credentials". This indicates that an API key is required to use the Google Cloud Speech to Text API.
+[ ]
+response_out = query_engine.query("Which programming language was used in the solution?")
+print(response_out.response)
+Python
